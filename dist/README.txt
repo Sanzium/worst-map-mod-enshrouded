@@ -230,6 +230,11 @@ Below FOG and PINS the settings are grouped under WORLD MAP, MINIMAP, LOOK and F
 - Vanilla World Map (LOOK), off at first: the world map exactly as the game draws it, as your
   friends without the mod see it (the game's markers, fog, zoom and filter menu; no Map Key or
   added pins). The minimap stays, and its cog is then the way to Settings.
+  To turn it back off without restarting: on your HUD, hold Shift + Alt so the cursor appears
+  (see MINIMAP), click the cog under the minimap, and switch Vanilla World Map off under
+  Advanced. It takes effect at once. On a controller, open the world map and press View to
+  bring the mod's map back. (Editing VanillaWorldMap= in minimap_config.ini also works, but
+  that one needs a game restart.)
 - Vanilla Minimap (LOOK), under it: the minimap shows only what the game's world map shows,
   the game's own markers and the players, and none of the mod's chests, resources, lore notes,
   portals and the like.
